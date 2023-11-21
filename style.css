@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    box-sizing: border-box;
+    
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open ans', sans-serif;
+    /* height: 200vh; */
+}
+
+
+header{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #6F6AF7;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+
+header p{
+    font-family: 'Delius Unicase', cursive;
+    width: 215px;
+    font-family: Delius Unicase;
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 15px;
+    cursor: pointer;
+}   
+
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin-left: 60px;
+
+}
+
+ul li{
+    display: flex;
+    align-self: center;
+    padding: 20px 35px;
+    font-size: 23px;
+    color: #FFFFFF;
+
+}   
+
+ul .more_Img{
+    width: 13px;
+    height: 10px;
+    align-self: center;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+
+
+
+.search{
+    
+    width: 200px;
+    height: 40px;
+    align-self: center;
+    margin-left: 14px;
+    font-size: 20.43px;
+    font-weight: 400;
+    padding-left: 15px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #9F9F9F;
+    position: relative;
+    left: 3px;
+}
+
+ul button{
+    width: 50px;
+    height: 40px;
+    align-self: center;
+    background-color: #FFFFFF;
+    border: none;
+    border-start-end-radius: 25px;
+    border-end-end-radius: 25px;
+}
+
+
+
+.multiple .toggle_Img{
+    width: 53px;
+    align-self: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------*/
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+.img_left img{
+    width: 376px;
+    height: 377px;
+    box-shadow:  1px 1px 18px #00000066;
+    border-radius: 20px;
+    margin-right: 70px;
+}
+
+
+
+.text_right textarea{
+
+    width: 830px;
+    height: 377px;
+    border-radius: 6px;
+    border: none;
+    background-color: #E5D8FF;
+    box-shadow:  1px 1px 8px #00000066;
+    font-size: 19px;
+    outline: none;
+    resize: none;
+}
+
+#text_message::placeholder{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open ans', sans-serif;
+    position: absolute;
+    padding: 21px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    top: 0;
+    color: #6F7373;
+    
+}
+
+.socialMedia {
+   display: flex;
+   float: right;
+   flex-direction: column;
+   margin-top : -300px;
+   width: 60px;
+   margin-right: 4px;
+   position: sticky;
+   position: -webkit-sticky;
+   top:0;
+   cursor: pointer;
+}
+
+.socialMedia img{
+    margin-top: 3px;
+   
+}
+
+
+.whatsup{
+    border: 3px solid black;
+    border-radius: 11px;
+}
+
+
+.customer-div{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+    margin-top: 30px;
+   
+
+}.customer-div img{
+
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    bottom: 0px;
+    top: 86vh;
+    right: 58px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.boxes{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    color: #FFFFFF;
+    height: 125px;
+    margin-top: 10px;
+    
+}
+
+.boxes p{
+    border: 2px solid black;
+    padding: 15px 60px 20px 16px;
+    width: 160px;
+    text-align: start;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 1px 1px 12px #00000066;
+}
+
+.boxes .text1{
+
+    border-radius: 6px;
+    background-color: #929DFF;
+    border: none;
+    line-height: 1.8;
+    
+}
+
+
+.boxes .text2{
+
+    border-radius: 6px;
+    background-color: #734CF2;
+    border: none;
+    line-height: 1.8;
+
+}
+
+.boxes .text3{
+
+    border-radius: 6px;
+    background-color: #D288FF;
+    border: none;
+    line-height: 1.8;
+
+}
+
+.boxes .text4{
+
+    border-radius: 6px;
+    background-color: #000000;
+    border: none;
+    line-height: 1.8;
+
+}
+
+
+
+/*-------------------------------Footer---------------------------------------*/
+
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 110px ;
+    border-radius: 20px;
+    /* padding: 40px 10px; */
+    /* height: 350px; */
+    background-color: #483EFF;
+    
+}
+
+.footer-div .left-footer p{
+    margin: 53px;   
+    margin-left: 66.3px; 
+    text-align: center;
+    padding: 30px 66px;
+    border-radius: 14px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    font-size: 27px;
+    
+}
+
+
+.left-footer .text_footer1{
+    color: #000000;
+    background-color: #BCE0F6;
+    box-shadow: 1px 1px 12px #00000066;
+
+}
+
+
+.left-footer .text_footer2{
+    color: #FFFFFF;
+    border: 5px solid rgb(255, 255, 255);
+
+}
+
+
+.left-footer .text_footer3{
+    color: #FFFFFF;
+    border: 5px solid rgb(255, 255, 255);
+
+}
+
+
+
+.footer-div .table_Info{
+   
+    margin: 30px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    word-spacing: 16px;
+    margin-left: 7px;
+
+    
+}
+
+.footer-div .table_Info h2{
+    position: relative;
+    left: 26px;
+    top: 36px;
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+
+}
+
+
+.footer-div .table_Info p{
+    
+    padding: 20px 230px;
+    position: relative;
+    right: 180px;
+    top: 44px;  
+    white-space: nowrap;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.nametext{
+    word-spacing: 16px;
+}
+
+.emailText{
+    word-spacing: 16px;
+}
+
+.phoneText{
+    word-spacing: 10px;
+}
+
+.marksText{
+    word-spacing: 12px;
+}
+
+
+.footer-div .arrowButton{
+    position: relative;
+    left: 39.2vw;
+    top: 76px;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 7px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+
+}
+
+.arrowButton img{
+    width: 27px;
+    position: relative;
+    left: 10.2px;
+}
